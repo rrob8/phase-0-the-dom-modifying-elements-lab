@@ -1,12 +1,14 @@
-main = document.querySelector('#main')
+main = document.querySelector('#main');
 
-main.remove()
+main.remove();
 
-const body = document.querySelector('body')
-const newHeader = document.createElement('h1')
-body.append(newHeader)
+const body = document.querySelector('body');
+const newHeader = document.createElement('h1');
 
-newHeader.id = 'victory'
 
-newHeader.innerHTML = "Maria is the champion"
+newHeader.id = 'victory';
 
+
+newHeader.innerHTML = "Robert is the champion";
+
+body.append(newHeader);
